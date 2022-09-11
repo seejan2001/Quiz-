@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="mid-container">
+            <!--List of questions-->
+            <div id="data-set" style="display:block">
+            <div id="question"><p>Who was the last king of Nepal?</p></div>
+                <div id="list">
+                    <li><input type="radio" onclick="point()">King Birendra</li>
+                    <li><input type="radio">King Dipendra</li>
+                    <li><input type="radio">King Mahendra</li>
+                    <li><input type="radio">King Gyanendra</li>
+                </div>
+            </div>
+            <!--Second Question-->
+            <div id="data-set-2" style="display:none">
+                <div id="question"><p>What is the fullform of css?</p></div>
+                <div id="list">
+                    <li><input type="radio">Cascending style sheet</li>
+                    <li><input type="radio">Cascading sheet style</li>
+                    <li><input type="radio" onclick="point()">Cascading style sheet</li>
+                    <li><input type="radio">Castrol sheet style</li>
+                </div>
+            </div>
+            <!--Third Question-->
+            <div id="data-set-3" style="display:none">
+                <div id="question"><p>What is the fullform of Js?</p></div>
+                <div id="list">
+                    <li><input type="radio">Java screep</li>
+                    <li><input type="radio">Java String</li>
+                    <li><input type="radio" onclick="point()">JavaScript</li>
+                    <li><input type="radio">None of them</li>
+                </div>
+            </div>
+            <!--Blank Page-->
+            <div id="blank-page" height="50px">
+                <p id="content"></p>
+            </div>
+
+
+        <button type="submit" id="button-submit" style="display: block;">Submit</button>
+        </div> 
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
